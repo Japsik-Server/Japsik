@@ -1,0 +1,33 @@
+iframe {
+    margin-top: 60px;
+    width: 100%;
+    height: calc(100% - 60px);
+    border: 1px solid #333;
+}
+
+#notice {
+    display: inline-block;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 10;
+    width: 350px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+    --user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    list-style: square;
+    border-radius: 10px;
+}
+
+#notice li {
+    color: #fff;
+    margin-bottom: 7px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+#notice li:last-child {
+    margin-bottom: 0px;
+}
